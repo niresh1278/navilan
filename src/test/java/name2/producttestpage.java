@@ -21,7 +21,7 @@ public class producttestpage
 @Test
 public void verifypagecount()
 {
-	//ob.womenclick();
+	oc.clickwomen();
 	System.out.println(po.imagecount());
 	System.out.println(po.productcount());
 	}
